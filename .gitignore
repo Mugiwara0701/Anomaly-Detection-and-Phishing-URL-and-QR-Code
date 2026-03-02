@@ -5,3 +5,5 @@ venv/
 node_modules/
 test/extracted_features.csv
 *.csv
+.env
+backend/.env
