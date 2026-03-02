@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+#root {
+margin: 0 auto;
+text-align: center;
+}
+
+.logo {
+height: 6em;
+padding: 1.5em;
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.login-btn {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background-color: #357abd;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.option-btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.option-btn:hover {
+  background-color: #0056b3;
+}
+
+.nids-container, .phishing-container {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.email-list {
+  margin-top: 20px;
+}
+
+.email-item {
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+}
+
+.email-sender {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.email-subject {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.email-body {
+  font-size: 14px;
+}
+will-change: filter;
+transition: filter 300ms;
+}
+.logo:hover {
+filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+a:nth-of-type(2) .logo {
+  animation: logo-spin infinite 20s linear;
+}
+}
+
+.card {
+padding: 2em;
+}
+
+.read-the-docs {
+color: #888;
+}
